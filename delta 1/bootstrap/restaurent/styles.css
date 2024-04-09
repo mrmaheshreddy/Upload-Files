@@ -1,0 +1,49 @@
+/* universal styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header styles */
+header{
+    background-image: url(./hdimage-1);
+    background-size: cover;
+    background-position: right;
+    position: relative;
+}
+
+.title{
+    background-color: rgb(228, 212,198,0.4);
+    color: black;
+}
+
+.forcss{
+    position: absolute;
+    bottom: -30px;
+    color: #E82a60;
+    border: 5px solid white;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+/* grid of cards */
+.card-img-top{
+
+    height: 200px;
+}
+
+
+/* carousel */
+.carousel-inner{
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+
+/* footer */
+.pus{
+    width: 200px;
+    border-radius: 50%;
+}

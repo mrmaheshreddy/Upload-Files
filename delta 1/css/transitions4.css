@@ -1,0 +1,50 @@
+div{
+    height:100px;
+    width: 100px;
+    text-align: center;
+    background-color: green;
+    border: 2px solid black;
+    margin: 10px;
+
+}
+
+div:nth-of-type(2n){
+    background-color: brown;
+}
+
+div:nth-of-type(3n){
+    background-color: chartreuse;
+}
+
+/* transform */
+#one{
+    transform: rotate(45deg);
+}
+
+div:hover{
+    background-color: aqua;
+}
+
+/* scale */
+
+#two{
+    transform: scale(0.5);
+}
+
+#one{
+    transform: scale(1.25,0.75);
+    box-shadow: 2px 2px 10px black;
+}
+
+/* translate X,Y,(X,Y) */
+
+#one{
+    transform: translateX(100px);
+}
+
+/* skew */
+
+#three{
+    transform: skew(15deg);
+}
+

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <!-- link fontawesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- adding logo at tab area -->
+    <link rel="icon" href="./assets/logo.png">
+    <!-- linking google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- title of page -->
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <!-- partitioning spotify to 3 areas -->
+    <div class="main">
+        <div class="sidebar">
+            <!-- create 2 divs nav and library -->
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <!-- create 2 divs for library 1.options and 2.boxes -->
+            <!-- in options create 2 divs 1.lib-options and 2.icons-->
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option">
+                        <img src="./assets/library_icon.png" alt="">
+                        <a href="#">Your library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy,we will help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find podcast to follow</p>
+                        <p class="box-p2">we will keep updates on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- maincontent me 2 divs 1.sticky nav and 2.cards -->
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png" alt="">
+                    <img src="./assets/forward_icon.png" alt="">
+                </div>
+                <div class="sticky-nav-buttons">
+                    <button class="badge nav-item hide">Explore App</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="color:white; margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item" style="margin-left: 5px;"></i>
+                </div>
+                
+            </div>
+            <!-- <div class="cards"> -->
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" class="card-img" alt="">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of most played songs</p>
+                    </div>
+                </div>
+                <h2 style="margin-top: 1rem; margin-bottom: 1rem;">Trending Near You</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg" class="card-img" alt="">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of most played songs</p>
+                    </div>
+
+                    
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card3img.jpeg" class="card-img" alt="">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of most played songs</p>
+                    </div>
+                </div>
+
+               
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card4img.jpeg" class="card-img" alt="">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of most played songs</p>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card5img.jpeg" class="card-img" alt="">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of most played songs</p>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card6img.jpeg" class="card-img" alt="">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of most played songs</p>
+                    </div>
+                </div>
+
+                </div>
+
+                <!-- featured cards -->
+                <h2 style="margin-top: 1rem; margin-bottom: 1rem;">Featured Cards</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" class="card-img" alt="">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of most played songs</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card5img.jpeg" class="card-img" alt="">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of most played songs</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card6img.jpeg" class="card-img" alt="">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of most played songs</p>
+                    </div>
+
+                </div>
+
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                
+
+            <!-- </div> -->
+        </div>
+        <div class="music-player">music player</div>
+    </div>
+</body>
+</html>
